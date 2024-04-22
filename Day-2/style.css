@@ -1,0 +1,39 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ .btn-help{
+    background-color: #75BF7A;
+
+ }
+
+
+  .panel{
+    background-color: #75BF7A;
+  }
+.tere{
+    color: #75BF7A;
+}
+
+.f-para{
+    line-height: 24px;
+    font-size: 12px;
+}
+
+
+
+
+/* ..............................for-md-screen */
+@media screen and (min-height: 768px),
+(max-height: 1024px) {
+    .head-1, .para-1, .btn{
+        margin-top: 10px;
+        line-height: 18px;
+
+    }
+    .img-1{
+        width: 400px;
+        margin-top: 30px;
+    }
+}
